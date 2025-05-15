@@ -183,7 +183,7 @@ export default function MenuEditor() {
         </SortableContext>
       </DndContext>
 
-      <pre className="bg-gray-100 p-4 rounded">
+      <pre className="bg-gray-600 p-4 rounded">
         {JSON.stringify(tree, null, 2)}
       </pre>
     </div>

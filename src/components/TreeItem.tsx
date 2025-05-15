@@ -103,7 +103,7 @@ export default function TreeItem({
     transition,
     opacity: isDragging ? 0.5 : 1,
     marginLeft: depth * 20,
-    background: isDragging ? "#f0f0f0" : "black",
+    background: isDragging ? "#f0f0f0" : "#6e6144",
     borderRadius: 8,
     padding: 8,
     marginBottom: 6,
